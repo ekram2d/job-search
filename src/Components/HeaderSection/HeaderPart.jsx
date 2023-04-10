@@ -2,7 +2,9 @@ import React from 'react';
 
 const HeaderPart = () => {
       return (
-            <div className='px-11  lg:flex lg:justify-around lg:items-center'>
+
+            <>
+            <div className=' lg:flex lg:justify-around lg:items-center'>
                   <div className='px-3 lg:px-0 text-left'>
                         <h1 className='text-3xl font-bold '>
                               One step <br></br>
@@ -17,6 +19,7 @@ const HeaderPart = () => {
                         </img>
                   </div>
             </div>
+            </>
       );
 };
 

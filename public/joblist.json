@@ -1,0 +1,23 @@
+[
+      {
+        "icon": "https://www.dlf.pt/dfpng/maxpng/424-4241372_job-png.png",
+        "title": "Marketing",
+        "total_jobs": 5000
+      },
+      {
+        "icon": "https://cdn1.iconfinder.com/data/icons/ui-glynh-01-of-5/100/UI_Glyph_1-21-1024.png",
+        "title": "Engineering",
+        "total_jobs": 7500
+      },
+      {
+        "icon": "https://png.pngtree.com/png-vector/20190511/ourmid/pngtree-vector-jobs-icon-png-image_1028714.jpg",
+        "title": "Sales",
+        "total_jobs": 3000
+      },
+      {
+        "icon": "https://cdn3.iconfinder.com/data/icons/business-and-employment-2/48/job_list_employee_employment_business-512.png",
+        "title": "Customer Support",
+        "total_jobs": 2000
+      }
+   
+    ]
