@@ -10,14 +10,24 @@ import Home from './Components/Home/Home';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     errorElement: <p>error</p>,
 
-    children:[{
+    children: [
+      {
 
-      path: "/",
-      element: <Home></Home>,
-    }]
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+
+        path: "/about",
+        element: <p>about</p>,
+      },
+
+
+
+    ]
   }
 ]);
 

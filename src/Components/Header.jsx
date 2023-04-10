@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BeakerIcon, XMarkIcon } from '@heroicons/react/24/solid'
+import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
 
       const [set, setItem] = useState(false)
@@ -12,7 +13,7 @@ const Header = () => {
       return (
             <div>
 
-                  <div className="navbar bg-slate-300 rounded w-[80%] mx-auto mt-4 mb-32" >
+                  <div className="navbar bg-orange-200 rounded w-[80%] mx-auto mt-4 mb-32" >
                         <div className="navbar-start">
                               <div className="dropdown">
                                     <span tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -21,6 +22,9 @@ const Header = () => {
                                     </span>
 
                                     {set && <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                                          <li>
+                                                <NavLink to='/'>Home</NavLink>
+                                          </li>
                                           <li><a>Statistics</a></li>
                                           <li tabIndex={0}>
                                                 <a className="justify-between">
@@ -39,6 +43,9 @@ const Header = () => {
                         </div>
                         <div className="navbar-center hidden lg:flex">
                               <ul className="menu menu-horizontal px-1">
+                              <li>
+                                                <Link to='/'>Home</Link>
+                                          </li>
                                     <li><a>Statistics</a></li>
                                     <li tabIndex={0}>
                                           <a className="justify-between">
