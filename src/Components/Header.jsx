@@ -31,7 +31,10 @@ const Header = () => {
                                                 <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
                                           </li>
-                                          <li><a>Blog</a></li>
+                                          <li>
+                                                <NavLink to='/blog'>Blog</NavLink>
+                                               
+                                          </li>
                                     </ul>
                                     }
 
@@ -49,7 +52,10 @@ const Header = () => {
                                           <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
                                     </li>
-                                    <li><a>Blog</a></li>
+                                    <li>
+                                                <NavLink to='/blog'>Blog</NavLink>
+                                               
+                                          </li>
                               </ul>
                         </div>
                         <div className="navbar-end">

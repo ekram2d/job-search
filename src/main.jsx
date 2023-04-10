@@ -10,6 +10,7 @@ import JobDetails from './Components/JobDetails/JobDetails';
 import Aplyjob from './Components/Aplyjob/Aplyjob';
 import ErrorPage from './Components/ErrorPage';
 import Statics from './Components/Statics';
+import Blog from './Components/Blog';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: '/statistics',
         element : <Statics/>
+      },
+      {
+        path: '/blog',
+        element : <Blog/>
       }
 
 
