@@ -13,7 +13,7 @@ function App() {
     <div className="App">
      
     <Header></Header>
-    <Outlet></Outlet>
+  <Outlet></Outlet>
    
     </div>
   )
