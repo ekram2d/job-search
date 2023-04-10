@@ -6,12 +6,14 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home/Home';
+import JobDetails from './Components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <p>error</p>,
+    loader: ()=>fetch('data.json'),
 
     children: [
       {
@@ -21,10 +23,18 @@ const router = createBrowserRouter([
       },
       {
 
+        path: "/detail",
+        element: <p>about</p>,
+      },
+      {
+
         path: "/about",
         element: <p>about</p>,
       },
-
+      {
+        path: 'job-details/:id',
+        element : <JobDetails/>
+      }
 
 
     ]
@@ -32,7 +42,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  // </React.StrictMode>
 );

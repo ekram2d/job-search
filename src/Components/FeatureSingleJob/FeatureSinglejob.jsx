@@ -1,8 +1,9 @@
 import React from 'react';
 import { BeakerIcon, MapIcon, MapPinIcon , } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 const FeatureSinglejob = ({ job }) => {
       const { companyLogo, id, jobTitle, companyName, remoteOrOnsite, location, salary, } = job;
-      console.log(job)
+      // console.log(job)
       return (
             <div className="mt-5 card w-auto bg-base-100 shadow-xl">
                   <figure><img className='w-40 rounded-lg' src={companyLogo} alt="Shoes" /></figure>
@@ -22,7 +23,9 @@ const FeatureSinglejob = ({ job }) => {
                               <p>salary: {salary}</p>
                         </div>
                        
-                              <button className="btn btn-active btn-primary w-28 ">Veiw Details</button>
+                              <Link to={`/job-details/${id}`} className="btn btn-active btn-primary w-28 ">
+                                    Veiw Details
+                                    </Link>
 
                   </div>
             </div>

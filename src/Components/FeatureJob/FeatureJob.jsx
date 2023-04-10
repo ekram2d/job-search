@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import FeatureSinglejob from '../FeatureSingleJob/FeatureSinglejob';
+import { JobContext } from '../../App';
 
 const FeatureJob = () => {
-      const [jobs, setJobs] = useState([]);
-      const [set, setData] = useState(false);
-      useEffect(() => {
-            fetch("data.json")
-                  .then((res) => res.json())
-                  .then((data) => setJobs(data));
-            setData(true);
-      }, [])
+      // const [jobs, setJobs] = useState([]);
+      const [set, setData] = useState(true);
+      // useEffect(() => {
+      //       fetch("data.json")
+      //             .then((res) => res.json())
+      //             .then((data) => setJobs(data));
+      //       setData(true);
+      // }, [])
 
+      let jobs = useContext(JobContext);
       // console.log(jobs , set);
       return (
             <>
@@ -23,7 +25,7 @@ const FeatureJob = () => {
                               {set ? jobs.slice(0, 4).map((job) => <FeatureSinglejob key={job.id} job={job}></FeatureSinglejob>) : jobs.map((job) => <FeatureSinglejob key={job.id} job={job}></FeatureSinglejob>)}
                         </div>
                         <div className='mt-9 flex mx-auto'>
-                              <button className="btn btn-active btn-primary  mx-auto" onClick={()=>setData(false)}>See all Jobs</button>
+                              <button className={`btn btn-active btn-primary  mx-auto ${set===false ? 'hidden': 'block'}`} onClick={()=>setData(false)}>See all Jobs</button>
                         </div>
                   </div>
 
