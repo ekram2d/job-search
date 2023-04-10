@@ -19,7 +19,7 @@ const JobDetails = () => {
 
       return (
             <>
-            <div className='w-[80%] mx-auto'>
+            <div className='w-[80%] mx-auto mt-20'>
                   <h1 className='text-center text-2xl font-bold '>Job Details</h1>
                   <div className='lg:grid lg:grid-cols-2 gap-4  mt-3 '>
                         <div className='lg:w-[80%]'>

@@ -6,7 +6,7 @@ const FeatureSinglejob = ({ job }) => {
       // console.log(job)
       const {phone,email,address}=job.contactInformation
       return (
-            <div className="mt-5 card w-auto bg-base-100 shadow-xl">
+            <div className="mt-14 card w-auto bg-base-100 shadow-xl ">
                   <figure><img className='w-40 rounded-lg' src={companyLogo} alt="Shoes" /></figure>
                   <div className="card-body">
                         <h2 className="card-title">

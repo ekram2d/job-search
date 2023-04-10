@@ -11,7 +11,7 @@ const Header = () => {
       }
 
       return (
-            <div>
+            <div className='mb-44'>
 
                   <div className="navbar bg-orange-200 rounded w-[80%] mx-auto  mb-32" >
                         <div className="navbar-start">
@@ -24,8 +24,9 @@ const Header = () => {
                                     {set && <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                                           <li>
                                                 <NavLink to='/'>Home</NavLink>
+                                               
                                           </li>
-                                          <li><a>Statistics</a></li>
+                                        <li><NavLink to='/statistics'>Statistics</NavLink></li>  
                                           <li tabIndex={0}>
                                                 <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
@@ -43,7 +44,7 @@ const Header = () => {
                                     <li>
                                     <NavLink to='/'>Home</NavLink>
                                     </li>
-                                    <li><a>Statistics</a></li>
+                                    <li> <NavLink to='/statistics'>Statistics</NavLink></li>
                                     <li tabIndex={0}>
                                           <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
