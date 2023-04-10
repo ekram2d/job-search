@@ -1,7 +1,7 @@
 [
        {
             "id": 1,
-            "companyLogo": "https://example.com/logo1.png",
+            "companyLogo": "https://www.freepngimg.com/download/google/66884-logo-account-google-business-free-download-png-hd.png",
             "jobTitle": "Software Developer",
             "companyName": "Acme Corp",
             "remoteOrOnsite": "Remote",
@@ -20,7 +20,7 @@
       },
        {
             "id": 2,
-            "companyLogo": "https://example.com/logo2.png",
+            "companyLogo": "https://1000marcas.net/wp-content/uploads/2021/05/Always-Logo-1983-1280x720.png",
             "jobTitle": "Marketing Manager",
             "companyName": "Bridgewater Consulting",
             "remoteOrOnsite": "Onsite",
@@ -39,7 +39,7 @@
       },
    {
             "id": 3,
-            "companyLogo": "https://example.com/logo3.png",
+            "companyLogo": "https://yespunjab.com/wp-content/uploads/2020/03/EMI-Logo.jpg",
             "jobTitle": "Accountant",
             "companyName": "Johnson & Associates",
             "remoteOrOnsite": "Onsite",
@@ -58,7 +58,7 @@
       },
       {
             "id": 4,
-            "companyLogo": "https://example.com/logo4.png",
+            "companyLogo": "https://graphicsfamily.com/wp-content/uploads/2020/08/Company-Logo-Design-on-3d-glass-window-1180x664.jpg",
             "jobTitle": "Marketing Manager",
             "companyName": "Global Enterprises",
             "remoteOrOnsite": "Onsite",
@@ -77,7 +77,7 @@
       },
    {
             "id": 5,
-            "companyLogo": "https://example.com/logo5.png",
+            "companyLogo": "https://i.pinimg.com/originals/af/15/1f/af151fb5748561b79168d0e7f3dc36f8.jpg",
             "jobTitle": "Graphic Designer",
             "companyName": "Pixel Perfect",
             "remoteOrOnsite": "Remote",
@@ -96,7 +96,7 @@
       },
       {
             "id": 6,
-            "companyLogo": "https://example.com/logo6.png",
+            "companyLogo": "https://graphicdesignjunction.com/wp-content/uploads/2017/06/0011_logo_design.jpg",
             "jobTitle": "Sales Representative",
             "companyName": "ABC Company",
             "remoteOrOnsite": "Onsite",
@@ -115,7 +115,7 @@
       },
        {
             "id": 7,
-            "companyLogo": "https://example.com/logo7.png",
+            "companyLogo": "https://graphicdesignjunction.com/wp-content/uploads/2017/06/0011_logo_design.jpg",
             "jobTitle": "Data Analyst",
             "companyName": "XYZ Corporation",
             "remoteOrOnsite": "Onsite",
@@ -134,7 +134,7 @@
       },
    {
             "id": 8,
-            "companyLogo": "https://example.com/logo9.png",
+            "companyLogo": "https://yespunjab.com/wp-content/uploads/2020/03/EMI-Logo.jpg",
             "jobTitle": "Software Developer",
             "companyName": "Tech Innovators",
             "remoteOrOnsite": "Remote",

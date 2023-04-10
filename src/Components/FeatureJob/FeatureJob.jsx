@@ -18,9 +18,9 @@ const FeatureJob = () => {
                         <p>Explore thousands of job all the information you need </p></div>
                   <div>
 
-                        <div className='mt-10'>
+                        <div className='mt-10 lg:grid lg:grid-cols-2 gap-2'>
 
-                              {set ? jobs.slice(0, 4).map((job) => <FeatureSinglejob>ki</FeatureSinglejob>) : jobs.map((job) => <p>ho</p>)}
+                              {set ? jobs.slice(0, 4).map((job) => <FeatureSinglejob key={job.id} job={job}></FeatureSinglejob>) : jobs.map((job) => <FeatureSinglejob key={job.id} job={job}></FeatureSinglejob>)}
                         </div>
                         <div className='mt-9 flex mx-auto'>
                               <button className="btn btn-active btn-primary  mx-auto" onClick={()=>setData(false)}>See all Jobs</button>
