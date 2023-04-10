@@ -12,7 +12,7 @@ const JobList = () => {
       console.log(joblists)
       return (
             <>
-                  <div className='text-center mt-14'> <h1 className='font-bold text-3xl'>Job Category List </h1>
+                  <div className='text-center mt-14 mb-4'> <h1 className='font-bold text-3xl'>Job Category List </h1>
                         <p>Explore thousands of job all the information you need </p></div>
                   <div className='lg:flex lg:justify-between mt-8 '>
 
