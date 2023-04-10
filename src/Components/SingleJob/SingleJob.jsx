@@ -7,8 +7,8 @@ const SingleJob = ({ job }) => {
       // console.log(job)
       const { phone, email, address } = job.contactInformation
       return (
-            <div className="mt-5  lg:flex items-center  bg-base-100 shadow-xl w-[80%] mx-auto border p-2 ">
-                  <figure><img className='w-40 rounded-lg' src={companyLogo} alt="Shoes" /></figure>
+            <div className="mt-5  lg:flex  items-center  bg-base-100 shadow-xl w-full lg:w-[80%] mx-auto border p-2  ">
+                  <figure><img className='w-full lg:w-40 rounded-lg' src={companyLogo} alt="Shoes" /></figure>
                   <div className="card-body">
                         <h2 className="card-title">
                               {jobTitle}
