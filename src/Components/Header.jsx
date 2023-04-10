@@ -27,10 +27,7 @@ const Header = () => {
                                           </li>
                                           <li><a>Statistics</a></li>
                                           <li tabIndex={0}>
-                                                <a className="justify-between">
-                                                      Aplied jobs
-
-                                                </a>
+                                          <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
                                           </li>
                                           <li><a>Blog</a></li>
@@ -48,10 +45,7 @@ const Header = () => {
                                           </li>
                                     <li><a>Statistics</a></li>
                                     <li tabIndex={0}>
-                                          <a className="justify-between">
-                                                Aplied jobs
-
-                                          </a>
+                                    <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
                                     </li>
                                     <li><a>Blog</a></li>
