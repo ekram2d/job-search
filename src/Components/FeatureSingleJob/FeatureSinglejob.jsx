@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const FeatureSinglejob = ({ job }) => {
       const { companyLogo, id, jobTitle, companyName, remoteOrOnsite, location, salary, } = job;
       // console.log(job)
+      const {phone,email,address}=job.contactInformation
       return (
             <div className="mt-5 card w-auto bg-base-100 shadow-xl">
                   <figure><img className='w-40 rounded-lg' src={companyLogo} alt="Shoes" /></figure>
@@ -19,7 +20,7 @@ const FeatureSinglejob = ({ job }) => {
 
                         <div className='flex '>
 
-                              <p className='flex'>   <MapPinIcon className="h-6 w-6 text-blue-500" />  {location}</p>
+                              <p className='flex'>   <MapPinIcon className="h-6 w-6 text-blue-500" />  {address}</p>
                               <p>salary: {salary}</p>
                         </div>
                        
