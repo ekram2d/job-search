@@ -12,7 +12,7 @@ const Header = () => {
       return (
             <div>
 
-                  <div className="navbar bg-slate-300 rounded w-[80%] mx-auto mt-4" >
+                  <div className="navbar bg-slate-300 rounded w-[80%] mx-auto mt-4 mb-32" >
                         <div className="navbar-start">
                               <div className="dropdown">
                                     <span tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@ const Header = () => {
                               </ul>
                         </div>
                         <div className="navbar-end">
-                              <a className="btn">Start Apply</a>
+                              <a className="btn btn-active btn-primary">Start Apply</a>
                         </div>
                   </div>
             </div>
