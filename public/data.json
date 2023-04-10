@@ -1,0 +1,155 @@
+[
+       {
+            "id": 1,
+            "companyLogo": "https://example.com/logo1.png",
+            "jobTitle": "Software Developer",
+            "companyName": "Acme Corp",
+            "remoteOrOnsite": "Remote",
+            "location": "Any",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$80,000 - $100,000",
+            "jobDescription": "We are looking for a skilled software developer to join our team and help build cutting-edge software solutions for our clients.",
+            "jobResponsibility": "- Develop new features and functionality for our software products\n- Collaborate with cross-functional teams to design and implement software solutions\n- Troubleshoot and resolve issues with existing software products",
+            "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "3+ years of experience in software development",
+            "contactInformation": {
+                  "phone": "555-555-1111",
+                  "email": "person1@example.com",
+                  "address": "123 Main St, Anytown USA"
+            }
+      },
+       {
+            "id": 2,
+            "companyLogo": "https://example.com/logo2.png",
+            "jobTitle": "Marketing Manager",
+            "companyName": "Bridgewater Consulting",
+            "remoteOrOnsite": "Onsite",
+            "location": "San Francisco, CA",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$100,000 - $120,000",
+            "jobDescription": "We are seeking an experienced marketing manager to lead our marketing efforts and drive customer acquisition and retention.",
+            "jobResponsibility": "- Develop and execute marketing strategies and campaigns\n- Measure and report on the effectiveness of marketing activities\n- Work with cross-functional teams to ensure alignment and execution of marketing plans",
+            "educationalRequirements": "Bachelor's degree in Marketing or related field",
+            "experiences": "5+ years of experience in marketing",
+            "contactInformation": {
+                  "phone": "555-555-2222",
+                  "email": "person2@example.com",
+                  "address": "456 Oak St, San Francisco, CA"
+            }
+      },
+   {
+            "id": 3,
+            "companyLogo": "https://example.com/logo3.png",
+            "jobTitle": "Accountant",
+            "companyName": "Johnson & Associates",
+            "remoteOrOnsite": "Onsite",
+            "location": "New York, NY",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$70,000 - $80,000",
+            "jobDescription": "We are seeking a detail-oriented and experienced accountant to join our team and ensure the accuracy of our financial records.",
+            "jobResponsibility": "- Maintain accurate and timely financial records\n- Prepare financial statements and reports\n- Assist with audits and tax filings",
+            "educationalRequirements": "Bachelor's degree in Accounting or related field",
+            "experiences": "3+ years of experience in accounting",
+            "contactInformation": {
+                  "phone": "555-555-3333",
+                  "email": "person3@example.com",
+                  "address": "789 Broadway, New York, NY"
+            }
+      },
+      {
+            "id": 4,
+            "companyLogo": "https://example.com/logo4.png",
+            "jobTitle": "Marketing Manager",
+            "companyName": "Global Enterprises",
+            "remoteOrOnsite": "Onsite",
+            "location": "New York, NY",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$80,000 - $90,000",
+            "jobDescription": "We are seeking a talented marketing manager to lead our marketing team and develop successful marketing strategies.",
+            "jobResponsibility": "- Develop and implement marketing plans and strategies\n- Lead and manage marketing team members\n- Monitor and analyze marketing performance metrics and make improvements as needed",
+            "educationalRequirements": "Bachelor's degree in Marketing or related field",
+            "experiences": "5+ years of experience in marketing management",
+            "contactInformation": {
+                  "phone": "555-555-4444",
+                  "email": "person4@example.com",
+                  "address": "123 Main St, New York, NY"
+            }
+      },
+   {
+            "id": 5,
+            "companyLogo": "https://example.com/logo5.png",
+            "jobTitle": "Graphic Designer",
+            "companyName": "Pixel Perfect",
+            "remoteOrOnsite": "Remote",
+            "location": "Any",
+            "fulltimeOrParttime": "Part-time",
+            "salary": "$40 - $50 per hour",
+            "jobDescription": "We are seeking a talented graphic designer to join our team and create visually stunning designs for our clients.",
+            "jobResponsibility": "- Design and create graphics and visual assets for various projects\n- Collaborate with clients to understand their design needs and provide design solutions\n- Iterate on designs based on feedback from clients and team members",
+            "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
+            "experiences": "2+ years of experience in graphic design",
+            "contactInformation": {
+                  "phone": "555-555-4444",
+                  "email": "person5@example.com",
+                  "address": "123 Main St, Anytown USA"
+            }
+      },
+      {
+            "id": 6,
+            "companyLogo": "https://example.com/logo6.png",
+            "jobTitle": "Sales Representative",
+            "companyName": "ABC Company",
+            "remoteOrOnsite": "Onsite",
+            "location": "Miami, FL",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$50,000 - $60,000",
+            "jobDescription": "We are seeking a results-driven and energetic sales representative to join our team and drive revenue growth.",
+            "jobResponsibility": "- Prospect and generate new business leads\n- Conduct product demos and presentations to potential clients\n- Negotiate and close deals",
+            "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+            "experiences": "2+ years of experience in sales",
+            "contactInformation": {
+                  "phone": "555-555-5555",
+                  "email": "person6@example.com",
+                  "address": "1234 Collins Ave, Miami, FL"
+            }
+      },
+       {
+            "id": 7,
+            "companyLogo": "https://example.com/logo7.png",
+            "jobTitle": "Data Analyst",
+            "companyName": "XYZ Corporation",
+            "remoteOrOnsite": "Onsite",
+            "location": "Seattle, WA",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$80,000 - $90,000",
+            "jobDescription": "We are seeking a data analyst to join our team and provide insights and analysis on our business operations and performance.",
+            "jobResponsibility": "- Collect and analyze data from various sources\n- Create reports and dashboards to visualize and communicate data insights\n- Identify trends and patterns in data to inform business decisions",
+            "educationalRequirements": "Bachelor's degree in Statistics, Mathematics, or related field",
+            "experiences": "3+ years of experience in data analysis",
+            "contactInformation": {
+                  "phone": "555-555-6666",
+                  "email": "person7@example.com",
+                  "address": "5678 Pike St, Seattle, WA"
+            }
+      },
+   {
+            "id": 8,
+            "companyLogo": "https://example.com/logo9.png",
+            "jobTitle": "Software Developer",
+            "companyName": "Tech Innovators",
+            "remoteOrOnsite": "Remote",
+            "location": "Any",
+            "fulltimeOrParttime": "Full-time",
+            "salary": "$90,000 - $100,000",
+            "jobDescription": "We are seeking an experienced software developer to join our team and build cutting-edge software applications.",
+            "jobResponsibility": "- Design and develop software applications using programming languages and frameworks\n- Collaborate with cross-functional teams to ensure project success\n- Troubleshoot and debug code as necessary",
+            "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "5+ years of experience in software development",
+            "contactInformation": {
+                  "phone": "555-555-7777",
+                  "email": "person9@example.com",
+                  "address": "901 Broad St, Anytown USA"
+            }
+      }
+
+]
