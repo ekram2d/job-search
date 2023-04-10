@@ -8,12 +8,13 @@ import Header from './Components/Header';
 import Home from './Components/Home/Home';
 import JobDetails from './Components/JobDetails/JobDetails';
 import Aplyjob from './Components/Aplyjob/Aplyjob';
+import ErrorPage from './Components/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <p>error</p>,
+    errorElement: <ErrorPage></ErrorPage>,
     loader: ()=>fetch('data.json'),
 
     children: [

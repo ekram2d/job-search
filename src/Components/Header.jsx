@@ -27,7 +27,7 @@ const Header = () => {
                                           </li>
                                           <li><a>Statistics</a></li>
                                           <li tabIndex={0}>
-                                          <NavLink to='/apliedjob'>Aplied jobs</NavLink>
+                                                <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
                                           </li>
                                           <li><a>Blog</a></li>
@@ -36,16 +36,16 @@ const Header = () => {
 
 
                               </div>
-                              <a className="btn btn-ghost normal-case text-xl">Job Search</a>
+                              <NavLink to='/'className="btn btn-ghost normal-case text-xl">Job Search</NavLink > 
                         </div>
                         <div className="navbar-center hidden lg:flex">
                               <ul className="menu menu-horizontal px-1">
-                              <li>
-                                                <Link to='/'>Home</Link>
-                                          </li>
+                                    <li>
+                                    <NavLink to='/'>Home</NavLink>
+                                    </li>
                                     <li><a>Statistics</a></li>
                                     <li tabIndex={0}>
-                                    <NavLink to='/apliedjob'>Aplied jobs</NavLink>
+                                          <NavLink to='/apliedjob'>Aplied jobs</NavLink>
 
                                     </li>
                                     <li><a>Blog</a></li>
