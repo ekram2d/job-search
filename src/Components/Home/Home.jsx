@@ -8,11 +8,11 @@ const Home = () => {
       return (
             <div className='w-[80%] mx-auto mb-4'>
 
-                 <HeaderPart></HeaderPart>
+                  <HeaderPart></HeaderPart>
 
-                 <JobList></JobList>
-                 <FeatureJob></FeatureJob>
-                  
+                  <JobList></JobList>
+                  <FeatureJob></FeatureJob>
+
             </div>
       );
 };
