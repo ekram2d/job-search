@@ -78,7 +78,7 @@ const Aplyjob = () => {
 
 
       }
-      console.log(array);
+      // console.log(array);
       return (
             <>
                   <h1 className='text-2xl font-bold text-center'>Applied job</h1>
